@@ -8,9 +8,9 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, classification_report
 
 # Step 2: Load dataset
-df = pd.read_csv(r"C:\Users\Bhavishya Shetty\Downloads\skill lab\email_spam_dataset.csv", encoding='latin-1')
+df = pd.read_csv(r"email_spam_dataset.csv", encoding='latin-1')
 # Keep only required columns
-df = pd.read_csv("email_spam_dataset.csv", encoding='latin-1')
+
 
 # Clean column names (removes hidden spaces or weird characters)
 df.columns = df.columns.str.strip()
